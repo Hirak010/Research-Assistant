@@ -12,7 +12,7 @@ from langchain.prompts import ChatPromptTemplate
 
 load_dotenv()
 
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = os.getenv("GROQ_API_KEY")
 os.environ["TAVILY_API_KEY"] = os.getenv("TAVILY_API_KEY")
 
 MODEL_NAMES = [
