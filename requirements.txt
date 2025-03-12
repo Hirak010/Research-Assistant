@@ -1,0 +1,9 @@
+fastapi
+pydantic
+typing
+langchain_community
+langgraph
+langchain_groq
+uvicorn
+python-dotenv
+streamlit
